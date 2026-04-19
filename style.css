@@ -1201,7 +1201,7 @@ li {
 
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 22px;
   align-items: stretch;
   /* changed from start → stretch */
@@ -1299,7 +1299,7 @@ li {
 
 .pricing-price {
   font-family: 'Poppins', sans-serif;
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 800;
   color: #5300e2;
   line-height: 1;
@@ -1568,7 +1568,8 @@ li {
 }
 
 .contact-field input,
-.contact-field textarea {
+.contact-field textarea,
+.contact-field select {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   color: var(--dark);
@@ -1581,8 +1582,18 @@ li {
   width: 100%;
 }
 
+.contact-field select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%235300e2' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10l-5 5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+}
+
 .contact-field input:focus,
-.contact-field textarea:focus {
+.contact-field textarea:focus,
+.contact-field select:focus {
   border-color: var(--purple);
   box-shadow: 0 0 0 4px rgba(83, 0, 226, 0.08);
 }

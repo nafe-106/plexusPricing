@@ -58,10 +58,10 @@ if (header) {
 if (document.querySelector(".multiple-text1") && typeof Typed !== "undefined") {
   new Typed(".multiple-text1", {
     strings: [
-      "Medical Blogs",
-      "Health Articles",
-      "Research Content",
-      "SEO Medical Writing",
+"End clinic chaos",
+"Scale your clinic",
+"More patients",
+"Systemize everything",
     ],
     typeSpeed: 40,
     backSpeed: 70,
