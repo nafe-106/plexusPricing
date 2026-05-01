@@ -535,6 +535,26 @@ li {
   vertical-align: middle;
 }
 
+.teleconsult-tag {
+  display: inline-block;
+
+  background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(245,245,245,0.75));
+  color: #5300e2;
+
+  border: 1px solid rgba(255,255,255,0.35);
+
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+
+  padding: 3px 10px;
+  border-radius: 20px;
+
+  margin-right: 6px;
+  vertical-align: middle;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
 
 .home-link {
   color: var(--purple);
